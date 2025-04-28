@@ -14,7 +14,7 @@
     justify-content: center;
 
 }
-nav{
+.headernav{
     width: 100%;
     position: absolute;
     top: 0;
@@ -24,16 +24,22 @@ nav{
     justify-content: space-between;
     padding: 20px;
 }
-nav ul li{
+.headernav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
 
 }
-nav ul li a{
+.headernav ul li a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.headernav ul li a:hover{
+    color: #e5a13e;
+    transition: 0.4s;
 }
 
 .video-background{
@@ -64,10 +70,16 @@ nav ul li a{
 }
 .content h1{
     font-size: 160px;
-    color: #e5a13e;
     font-weight: 600;
-    transition: 05s;
+    transition: 0.3s;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
   
+}
+.content h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+
 }
 .content a{
     text-decoration: none;
@@ -221,4 +233,187 @@ h6{
     font-style: normal;
     font-size: 20px;
   }
-  
+  .discounts{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+  }
+  .card4{
+    width: 300px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+    background-color: #e5a13e;
+}
+.card4:hover{
+    box-shadow: 0 18px 30px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+.card4 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-content4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 300px;
+}
+
+
+.packages-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    background-color: #e5a13e;
+
+}
+  .card3{
+    width: 400px;
+    box-sizing: border-box;
+    margin: 15px;
+    float: left;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.card3:hover{
+    box-shadow: 0 18px 30px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+.card3 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-content3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 530px;
+    
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.card-content3 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+
+}
+.text{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+   
+}
+.text ul{
+    list-style: none;
+    padding-top: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.text ul li{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+}
+.fa{
+    color: brown;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.checked{
+    color: #ff9f43;
+}
+.follow{
+    text-align: center;
+    color: white;
+    background-color: #213638;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #213638;
+
+}
+.social-media ul li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin: 30px;
+
+}
+.social-media ul li a{
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media ul li a i{
+    font-size: 70px;
+    
+    
+
+}
+.fa-instagram{
+    color:#fa7e1e;
+}
+.fa-brands:hover{
+    opacity: 0.7;
+
+}
+.footer-nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #213638;
+}
+.footer-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.footer-nav ul li a:hover{
+    color: #e5a13e;
+    transition: 0.4s;
+}
