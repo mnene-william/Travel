@@ -690,10 +690,10 @@ h3{
         top: 0;
         left: 0;
         justify-content: space-between;
-        padding: 22px;
+        padding: 20px;
     }
     .headernav ul li a {
-        font-size: 14px;
+        font-size: 12px;
     }
     .active{
         background-color: #e5a13e;
@@ -764,7 +764,7 @@ h3{
         padding: 3px;
     }
     .social-media ul li a i {
-        font-size: 15px;
+        font-size: 14px;
     }
     .footer-nav{
         width: 100%;
