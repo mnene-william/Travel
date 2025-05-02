@@ -671,6 +671,30 @@ h3{
         width: 100%;
 
     }
+    .headernav{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .headernav ul li{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    .headernav ul li a {
+        font-size: 14px;
+    }
+    .active{
+        background-color: #e5a13e;
+        padding: 1px;
+        padding-left: 1px;
+        border-radius: 4px;
+        transition: 0.4s;
+        color: white;
+    }
 }
 
 @media (max-width: 768px) {
@@ -691,15 +715,21 @@ h3{
         top: 0;
         left: 0;
         justify-content: space-between;
-        padding: 20px;
+        padding: 18px;
+    }
+    .headernav ul li{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3px;
     }
     .headernav ul li a {
-        font-size: 12px;
+        font-size: 10px;
     }
     .active{
         background-color: #e5a13e;
-        padding: 2px;
-        border-radius: 8px;
+        padding: 1px;
+        padding-left: 1px;
+        border-radius: 4px;
         transition: 0.4s;
         color: white;
     }
